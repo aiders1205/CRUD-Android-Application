@@ -1,29 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\CRUDApp\app\src\main\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\CRUDApp\app\src\main\res"><file name="activity_main" path="C:\CRUDApp\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="content_main" path="C:\CRUDApp\app\src\main\res\layout\content_main.xml" qualifiers="" type="layout"/><file name="dialog_add_edit_item" path="C:\CRUDApp\app\src\main\res\layout\dialog_add_edit_item.xml" qualifiers="" type="layout"/><file name="item_row" path="C:\CRUDApp\app\src\main\res\layout\item_row.xml" qualifiers="" type="layout"/><file name="main_menu" path="C:\CRUDApp\app\src\main\res\menu\main_menu.xml" qualifiers="" type="menu"/><file path="C:\CRUDApp\app\src\main\res\values\colors.xml" qualifiers=""><color name="purple_200">#FFBB86FC</color><color name="purple_500">#FF6200EE</color><color name="purple_700">#FF3700B3</color><color name="teal_200">#FF03DAC5</color><color name="teal_700">#FF018786</color><color name="black">#FF000000</color><color name="white">#FFFFFFFF</color></file><file path="C:\CRUDApp\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="fab_margin">16dp</dimen></file><file path="C:\CRUDApp\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">CRUDApp</string></file><file path="C:\CRUDApp\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.CRUDApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\CRUDApp\app\src\main\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\CRUDApp\app\src\main\res"><file name="ic_add_note" path="C:\CRUDApp\app\src\main\res\drawable\ic_add_note.xml" qualifiers="" type="drawable"/><file name="ic_empty_notes" path="C:\CRUDApp\app\src\main\res\drawable\ic_empty_notes.xml" qualifiers="" type="drawable"/><file name="rounded_corner_background" path="C:\CRUDApp\app\src\main\res\drawable\rounded_corner_background.xml" qualifiers="" type="drawable"/><file name="activity_main" path="C:\CRUDApp\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="content_main" path="C:\CRUDApp\app\src\main\res\layout\content_main.xml" qualifiers="" type="layout"/><file name="dialog_add_edit_item" path="C:\CRUDApp\app\src\main\res\layout\dialog_add_edit_item.xml" qualifiers="" type="layout"/><file name="item_row" path="C:\CRUDApp\app\src\main\res\layout\item_row.xml" qualifiers="" type="layout"/><file name="main_menu" path="C:\CRUDApp\app\src\main\res\menu\main_menu.xml" qualifiers="" type="menu"/><file path="C:\CRUDApp\app\src\main\res\values\colors.xml" qualifiers=""><color name="md_theme_light_primary">#6750A4</color><color name="md_theme_light_onPrimary">#FFFFFF</color><color name="md_theme_light_primaryContainer">#EADDFF</color><color name="md_theme_light_onPrimaryContainer">#21005D</color><color name="md_theme_light_secondary">#625B71</color><color name="md_theme_light_onSecondary">#FFFFFF</color><color name="md_theme_light_secondaryContainer">#E8DEF8</color><color name="md_theme_light_onSecondaryContainer">#1D192B</color><color name="md_theme_light_tertiary">#7D5260</color><color name="md_theme_light_onTertiary">#FFFFFF</color><color name="md_theme_light_tertiaryContainer">#FFD8E4</color><color name="md_theme_light_onTertiaryContainer">#31111D</color><color name="md_theme_light_error">#BA1A1A</color><color name="md_theme_light_onError">#FFFFFF</color><color name="md_theme_light_errorContainer">#FFDAD6</color><color name="md_theme_light_onErrorContainer">#410002</color><color name="md_theme_light_background">#FFFBFE</color><color name="md_theme_light_onBackground">#1C1B1F</color><color name="md_theme_light_surface">#FFFBFE</color><color name="md_theme_light_onSurface">#1C1B1F</color><color name="md_theme_light_surfaceVariant">#E7E0EC</color><color name="md_theme_light_onSurfaceVariant">#49454F</color><color name="md_theme_light_outline">#7A757F</color><color name="md_theme_light_shadow">#000000</color><color name="md_theme_light_inverseSurface">#313034</color><color name="md_theme_light_inverseOnSurface">#F4EFF4</color><color name="md_theme_light_inversePrimary">#D0BCFF</color><color name="md_theme_light_surfaceTint">#6750A4</color><color name="md_theme_dark_primary">#D0BCFF</color><color name="md_theme_dark_onPrimary">#381E72</color><color name="md_theme_dark_primaryContainer">#4F378B</color><color name="md_theme_dark_onPrimaryContainer">#EADDFF</color><color name="md_theme_dark_secondary">#CCC2DC</color><color name="md_theme_dark_onSecondary">#332D41</color><color name="md_theme_dark_secondaryContainer">#4A4458</color><color name="md_theme_dark_onSecondaryContainer">#E8DEF8</color><color name="md_theme_dark_tertiary">#EFB8C8</color><color name="md_theme_dark_onTertiary">#492532</color><color name="md_theme_dark_tertiaryContainer">#633B48</color><color name="md_theme_dark_onTertiaryContainer">#FFD8E4</color><color name="md_theme_dark_error">#FFB4AB</color><color name="md_theme_dark_onError">#690005</color><color name="md_theme_dark_errorContainer">#93000A</color><color name="md_theme_dark_onErrorContainer">#FFDAD6</color><color name="md_theme_dark_background">#1C1B1F</color><color name="md_theme_dark_onBackground">#E6E1E5</color><color name="md_theme_dark_surface">#1C1B1F</color><color name="md_theme_dark_onSurface">#E6E1E5</color><color name="md_theme_dark_surfaceVariant">#49454F</color><color name="md_theme_dark_onSurfaceVariant">#CCC4D4</color><color name="md_theme_dark_outline">#948F99</color><color name="md_theme_dark_shadow">#000000</color><color name="md_theme_dark_inverseSurface">#E6E1E5</color><color name="md_theme_dark_inverseOnSurface">#313034</color><color name="md_theme_dark_inversePrimary">#6750A4</color><color name="md_theme_dark_surfaceTint">#D0BCFF</color><color name="black">#FF000000</color><color name="white">#FFFFFFFF</color></file><file path="C:\CRUDApp\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="fab_margin">16dp</dimen></file><file path="C:\CRUDApp\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">Manus Notes</string></file><file path="C:\CRUDApp\app\src\main\res\values\styles.xml" qualifiers=""/><file path="C:\CRUDApp\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.CRUDApp" parent="Theme.Material3.DayNight.NoActionBar">
         
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
         
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer</item>
+        
+        <item name="colorTertiary">@color/md_theme_light_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer</item>
+        
+        <item name="colorError">@color/md_theme_light_error</item>
+        <item name="colorOnError">@color/md_theme_light_onError</item>
+        <item name="colorErrorContainer">@color/md_theme_light_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/md_theme_light_onErrorContainer</item>
+        
+        <item name="android:colorBackground">@color/md_theme_light_background</item>
+        <item name="colorOnBackground">@color/md_theme_light_onBackground</item>
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="colorOutline">@color/md_theme_light_outline</item>
+        <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
+        <item name="colorOnSurfaceInverse">@color/md_theme_light_inverseOnSurface</item>
+        <item name="colorPrimaryInverse">@color/md_theme_light_inversePrimary</item>
         
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         
-    </style><style name="Theme.CRUDApp.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style><style name="Theme.CRUDApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/><style name="Theme.CRUDApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/></file><file path="C:\CRUDApp\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.CRUDApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    </style><style name="Theme.CRUDApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/><style name="Theme.CRUDApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/><style name="Theme.CRUDApp.NoActionBar" parent="Theme.CRUDApp"/></file><file path="C:\CRUDApp\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.CRUDApp" parent="Theme.Material3.DayNight.NoActionBar">
         
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">@color/md_theme_dark_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_dark_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_dark_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_dark_onPrimaryContainer</item>
         
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/md_theme_dark_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_dark_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_dark_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_dark_onSecondaryContainer</item>
+        
+        <item name="colorTertiary">@color/md_theme_dark_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_dark_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_dark_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_dark_onTertiaryContainer</item>
+        
+        <item name="colorError">@color/md_theme_dark_error</item>
+        <item name="colorOnError">@color/md_theme_dark_onError</item>
+        <item name="colorErrorContainer">@color/md_theme_dark_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/md_theme_dark_onErrorContainer</item>
+        
+        <item name="android:colorBackground">@color/md_theme_dark_background</item>
+        <item name="colorOnBackground">@color/md_theme_dark_onBackground</item>
+        <item name="colorSurface">@color/md_theme_dark_surface</item>
+        <item name="colorOnSurface">@color/md_theme_dark_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_dark_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_dark_onSurfaceVariant</item>
+        <item name="colorOutline">@color/md_theme_dark_outline</item>
+        <item name="colorSurfaceInverse">@color/md_theme_dark_inverseSurface</item>
+        <item name="colorOnSurfaceInverse">@color/md_theme_dark_inverseOnSurface</item>
+        <item name="colorPrimaryInverse">@color/md_theme_dark_inversePrimary</item>
         
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        
-    </style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\CRUDApp\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\CRUDApp\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\CRUDApp\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\CRUDApp\app\build\generated\res\resValues\debug"/></dataSet><mergedItems/></merger>
+    </style></file><file name="ic_launcher" path="C:\CRUDApp\app\src\main\res\drawable\ic_launcher.xml" qualifiers="" type="drawable"/><file name="ic_launcher_round" path="C:\CRUDApp\app\src\main\res\drawable\ic_launcher_round.xml" qualifiers="" type="drawable"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\CRUDApp\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\CRUDApp\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\CRUDApp\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\CRUDApp\app\build\generated\res\resValues\debug"/></dataSet><mergedItems/></merger>

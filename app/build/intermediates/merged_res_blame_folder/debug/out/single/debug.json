@@ -1,22 +1,42 @@
 [
     {
-        "merged": "com.example.crudapp-merged_res-4:/layout_item_row.xml.flat",
-        "source": "com.example.crudapp-main-6:/layout/item_row.xml"
+        "merged": "C:\\Users\\Aid Rosalan\\.gradle\\daemon\\8.5\\com.example.crudapp-merged_res-4:\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\Aid Rosalan\\.gradle\\daemon\\8.5\\com.example.crudapp-main-6:\\layout\\content_main.xml"
     },
     {
-        "merged": "com.example.crudapp-merged_res-4:/menu_main_menu.xml.flat",
-        "source": "com.example.crudapp-main-6:/menu/main_menu.xml"
+        "merged": "com.example.crudapp-merged_res-4:/drawable_ic_launcher.xml.flat",
+        "source": "com.example.crudapp-main-6:/drawable/ic_launcher.xml"
     },
     {
-        "merged": "com.example.crudapp-merged_res-4:/layout_content_main.xml.flat",
-        "source": "com.example.crudapp-main-6:/layout/content_main.xml"
+        "merged": "C:\\Users\\Aid Rosalan\\.gradle\\daemon\\8.5\\com.example.crudapp-merged_res-4:\\menu_main_menu.xml.flat",
+        "source": "C:\\Users\\Aid Rosalan\\.gradle\\daemon\\8.5\\com.example.crudapp-main-6:\\menu\\main_menu.xml"
     },
     {
-        "merged": "com.example.crudapp-merged_res-4:/layout_dialog_add_edit_item.xml.flat",
-        "source": "com.example.crudapp-main-6:/layout/dialog_add_edit_item.xml"
+        "merged": "C:\\Users\\Aid Rosalan\\.gradle\\daemon\\8.5\\com.example.crudapp-merged_res-4:\\drawable_rounded_corner_background.xml.flat",
+        "source": "C:\\Users\\Aid Rosalan\\.gradle\\daemon\\8.5\\com.example.crudapp-main-6:\\drawable\\rounded_corner_background.xml"
     },
     {
-        "merged": "com.example.crudapp-merged_res-4:/layout_activity_main.xml.flat",
-        "source": "com.example.crudapp-main-6:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Aid Rosalan\\.gradle\\daemon\\8.5\\com.example.crudapp-merged_res-4:\\drawable_ic_add_note.xml.flat",
+        "source": "C:\\Users\\Aid Rosalan\\.gradle\\daemon\\8.5\\com.example.crudapp-main-6:\\drawable\\ic_add_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aid Rosalan\\.gradle\\daemon\\8.5\\com.example.crudapp-merged_res-4:\\drawable_ic_empty_notes.xml.flat",
+        "source": "C:\\Users\\Aid Rosalan\\.gradle\\daemon\\8.5\\com.example.crudapp-main-6:\\drawable\\ic_empty_notes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aid Rosalan\\.gradle\\daemon\\8.5\\com.example.crudapp-merged_res-4:\\layout_dialog_add_edit_item.xml.flat",
+        "source": "C:\\Users\\Aid Rosalan\\.gradle\\daemon\\8.5\\com.example.crudapp-main-6:\\layout\\dialog_add_edit_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aid Rosalan\\.gradle\\daemon\\8.5\\com.example.crudapp-merged_res-4:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Aid Rosalan\\.gradle\\daemon\\8.5\\com.example.crudapp-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aid Rosalan\\.gradle\\daemon\\8.5\\com.example.crudapp-merged_res-4:\\layout_item_row.xml.flat",
+        "source": "C:\\Users\\Aid Rosalan\\.gradle\\daemon\\8.5\\com.example.crudapp-main-6:\\layout\\item_row.xml"
+    },
+    {
+        "merged": "com.example.crudapp-merged_res-4:/drawable_ic_launcher_round.xml.flat",
+        "source": "com.example.crudapp-main-6:/drawable/ic_launcher_round.xml"
     }
 ]

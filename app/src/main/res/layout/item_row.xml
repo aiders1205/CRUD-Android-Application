@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
-    app:cardCornerRadius="8dp"
+    app:cardCornerRadius="12dp"
     app:cardElevation="4dp">
 
     <LinearLayout
@@ -20,8 +20,8 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textSize="18sp"
-            android:textColor="@android:color/black"
-            tools:text="Item Name" />
+            android:textColor="?attr/colorOnSurface"
+            tools:text="Note Title" />
 
         <TextView
             android:id="@+id/itemDescription"
@@ -29,8 +29,42 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:textSize="14sp"
-            android:textColor="@android:color/darker_gray"
-            tools:text="Item Description" />
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:maxLines="3"
+            android:ellipsize="end"
+            tools:text="This is a short description of the note content. It can span multiple lines but will be truncated."
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/itemCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner_background"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:textSize="12sp"
+                android:textColor="?attr/colorOnSecondaryContainer"
+                tools:text="Category"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:id="@+id/itemTimestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="?attr/colorOnSurfaceVariant"
+                tools:text="2023-10-27 10:30 AM" />
+
+        </LinearLayout>
 
     </LinearLayout>
 

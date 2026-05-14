@@ -40,6 +40,8 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
         Item item = itemList.get(position);
         holder.nameTextView.setText(item.getName());
         holder.descriptionTextView.setText(item.getDescription());
+        holder.timestampTextView.setText(item.getTimestamp());
+        holder.categoryTextView.setText(item.getCategory());
     }
 
     @Override
@@ -55,11 +57,15 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
     public class ItemViewHolder extends RecyclerView.ViewHolder {
         public TextView nameTextView;
         public TextView descriptionTextView;
+        public TextView timestampTextView;
+        public TextView categoryTextView;
 
         public ItemViewHolder(@NonNull View itemView) {
             super(itemView);
             nameTextView = itemView.findViewById(R.id.itemName);
             descriptionTextView = itemView.findViewById(R.id.itemDescription);
+            timestampTextView = itemView.findViewById(R.id.itemTimestamp);
+            categoryTextView = itemView.findViewById(R.id.itemCategory);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
