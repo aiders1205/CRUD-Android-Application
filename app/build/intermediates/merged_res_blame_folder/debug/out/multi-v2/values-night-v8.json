@@ -9,6 +9,60 @@
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "102",
+                        "endLines": "37",
+                        "endColumns": "12",
+                        "endOffsets": "2698"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endLines": "44",
+                        "endColumns": "12",
+                        "endOffsets": "3073"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Aid Rosalan\\.gradle\\caches\\transforms-3\\2b09c2cd4192fe4b7b686a651ae8eff3\\transformed\\material-1.11.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,78",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3078,3153,3264,3353,3454,3561,3668,3767,3874,3977,4065,4189,4291,4393,4509,4611,4725,4853,4969,5091,5227,5347,5481,5601,5713,5928,6045,6169,6299,6421,6559,6693,6809",
+                        "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "3148,3259,3348,3449,3556,3663,3762,3869,3972,4060,4184,4286,4388,4504,4606,4720,4848,4964,5086,5222,5342,5476,5596,5708,5834,6040,6164,6294,6416,6554,6688,6804,6924"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Aid Rosalan\\.gradle\\caches\\transforms-3\\1269e761ba2b2764df14d796e474c793\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,70",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,5839",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,5923"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Aid Rosalan\\.gradle\\daemon\\8.5\\com.example.crudapp-mergeDebugResources-2:\\values-night-v8\\values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\CRUDApp\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
                         "endLines": "36",
                         "endColumns": "12",
                         "endOffsets": "2639"

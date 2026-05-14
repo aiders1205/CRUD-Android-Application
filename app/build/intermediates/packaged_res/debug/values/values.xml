@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr format="color" name="appBarTitleColor"/>
     <color name="black">#FF000000</color>
     <color name="md_theme_dark_background">#1C1B1F</color>
     <color name="md_theme_dark_error">#FFB4AB</color>
@@ -59,7 +60,20 @@
     <color name="md_theme_light_tertiaryContainer">#FFD8E4</color>
     <color name="white">#FFFFFFFF</color>
     <dimen name="fab_margin">16dp</dimen>
-    <string name="app_name">Manus Notes</string>
+    <string name="add_first_note">Tap the + button to add your first NoteKeep.</string>
+    <string name="add_note">Add New NoteKeep</string>
+    <string name="app_name">NoteKeep Pro</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_note">Delete NoteKeep</string>
+    <string name="delete_note_confirm">Are you sure you want to delete this NoteKeep?</string>
+    <string name="edit_note">Edit NoteKeep</string>
+    <string name="empty_fields_error">Title and Description cannot be empty</string>
+    <string name="no_notes">No NoteKeeps yet!</string>
+    <string name="no_notes_icon">No NoteKeeps icon</string>
+    <string name="note_added">NoteKeep added successfully</string>
+    <string name="note_deleted">NoteKeep deleted successfully</string>
+    <string name="note_updated">NoteKeep updated successfully</string>
+    <string name="search_hint">Search NoteKeeps...</string>
     <style name="Theme.CRUDApp" parent="Theme.Material3.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/md_theme_light_primary</item>
@@ -92,6 +106,7 @@
         <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
         <item name="colorOnSurfaceInverse">@color/md_theme_light_inverseOnSurface</item>
         <item name="colorPrimaryInverse">@color/md_theme_light_inversePrimary</item>
+        <item name="appBarTitleColor">@color/black</item>
         
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         

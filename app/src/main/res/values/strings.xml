@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Manus Notes</string>
+    <string name="app_name">NoteKeep Pro</string>
+    <string name="add_note">Add New NoteKeep</string>
+    <string name="edit_note">Edit NoteKeep</string>
+    <string name="delete_note">Delete NoteKeep</string>
+    <string name="delete_note_confirm">Are you sure you want to delete this NoteKeep?</string>
+    <string name="note_added">NoteKeep added successfully</string>
+    <string name="note_updated">NoteKeep updated successfully</string>
+    <string name="note_deleted">NoteKeep deleted successfully</string>
+    <string name="search_hint">Search NoteKeeps...</string>
+    <string name="no_notes">No NoteKeeps yet!</string>
+    <string name="add_first_note">Tap the + button to add your first NoteKeep.</string>
+    <string name="no_notes_icon">No NoteKeeps icon</string>
+    <string name="empty_fields_error">Title and Description cannot be empty</string>
+    <string name="cancel">Cancel</string>
 </resources>

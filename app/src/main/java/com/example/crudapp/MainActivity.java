@@ -24,8 +24,6 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String CANCEL_LABEL = "Cancel";
-    private static final String EMPTY_FIELDS_ERROR = "Title and Description cannot be empty";
     private DatabaseHelper db;
     private List<Item> itemList;
     private ItemAdapter itemAdapter;
@@ -83,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void showAddItemDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Add New Note");
+        builder.setTitle(R.string.add_note);
 
         View view = LayoutInflater.from(this).inflate(R.layout.dialog_add_edit_item, null);
         final EditText nameEditText = view.findViewById(R.id.editTextName);
@@ -99,22 +97,22 @@ public class MainActivity extends AppCompatActivity {
                 String category = categoryEditText.getText().toString().trim();
 
                 if (TextUtils.isEmpty(name) || TextUtils.isEmpty(description)) {
-                    Toast.makeText(MainActivity.this, EMPTY_FIELDS_ERROR, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, R.string.empty_fields_error, Toast.LENGTH_SHORT).show();
                     return;
                 }
 
                 db.addItem(new Item(name, description, category));
                 loadItems();
-                Toast.makeText(MainActivity.this, "Note added successfully", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, R.string.note_added, Toast.LENGTH_SHORT).show();
             }
         });
-        builder.setNegativeButton(CANCEL_LABEL, null);
+        builder.setNegativeButton(R.string.cancel, null);
         builder.create().show();
     }
 
     private void showEditItemDialog(final Item item) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Edit Note");
+        builder.setTitle(R.string.edit_note);
 
         View view = LayoutInflater.from(this).inflate(R.layout.dialog_add_edit_item, null);
         final EditText nameEditText = view.findViewById(R.id.editTextName);
@@ -134,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
                 String category = categoryEditText.getText().toString().trim();
 
                 if (TextUtils.isEmpty(name) || TextUtils.isEmpty(description)) {
-                    Toast.makeText(MainActivity.this, EMPTY_FIELDS_ERROR, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, R.string.empty_fields_error, Toast.LENGTH_SHORT).show();
                     return;
                 }
 
@@ -143,26 +141,26 @@ public class MainActivity extends AppCompatActivity {
                 item.setCategory(category);
                 db.updateItem(item);
                 loadItems();
-                Toast.makeText(MainActivity.this, "Note updated successfully", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, R.string.note_updated, Toast.LENGTH_SHORT).show();
             }
         });
-        builder.setNegativeButton(CANCEL_LABEL, null);
+        builder.setNegativeButton(R.string.cancel, null);
         builder.create().show();
     }
 
     private void showDeleteItemDialog(final Item item) {
         new AlertDialog.Builder(this)
-                .setTitle("Delete Note")
-                .setMessage("Are you sure you want to delete this note?")
+                .setTitle(R.string.delete_note)
+                .setMessage(R.string.delete_note_confirm)
                 .setPositiveButton("Delete", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         db.deleteItem(item);
                         loadItems();
-                        Toast.makeText(MainActivity.this, "Note deleted successfully", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, R.string.note_deleted, Toast.LENGTH_SHORT).show();
                     }
                 })
-                .setNegativeButton(CANCEL_LABEL, null)
+                .setNegativeButton(R.string.cancel, null)
                 .show();
     }
 
@@ -171,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.main_menu, menu);
         MenuItem searchItem = menu.findItem(R.id.action_search);
         SearchView searchView = (SearchView) searchItem.getActionView();
-        searchView.setQueryHint("Search notes...");
+        searchView.setQueryHint(getString(R.string.search_hint));
 
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override

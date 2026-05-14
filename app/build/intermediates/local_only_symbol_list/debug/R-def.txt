@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+attr appBarTitleColor
 color black
 color md_theme_dark_background
 color md_theme_dark_error
@@ -81,7 +82,20 @@ layout content_main
 layout dialog_add_edit_item
 layout item_row
 menu main_menu
+string add_first_note
+string add_note
 string app_name
+string cancel
+string delete_note
+string delete_note_confirm
+string edit_note
+string empty_fields_error
+string no_notes
+string no_notes_icon
+string note_added
+string note_deleted
+string note_updated
+string search_hint
 style Theme.CRUDApp
 style Theme.CRUDApp.AppBarOverlay
 style Theme.CRUDApp.NoActionBar
